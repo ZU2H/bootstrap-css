@@ -1,0 +1,36 @@
+@font-face {
+    font-family: luxury;
+    src: url(Glamore-VGyee.ttf);
+}
+
+.luxury {
+    font-family: luxury;
+    font-size: 35px;
+}
+
+.carousel-item img {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width:560px) {
+    .carousel-item img {
+        height: 620px;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }   
+}
+
+.container h1 {
+    font-weight: 600;
+}
+
+.card img {
+    height: 175px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
